@@ -13,6 +13,8 @@
 		BF4FB15A21212CF2007DF7AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4FB15921212CF2007DF7AC /* Assets.xcassets */; };
 		BF4FB15D21212CF2007DF7AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4FB15B21212CF2007DF7AC /* LaunchScreen.storyboard */; };
 		BF4FB16021212CF2007DF7AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4FB15F21212CF2007DF7AC /* main.m */; };
+		BF4FB18A21215601007DF7AC /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4FB18921215601007DF7AC /* AViewController.m */; };
+		BF4FB18D2121592C007DF7AC /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4FB18C2121592C007DF7AC /* BViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		BF4FB15C21212CF2007DF7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF4FB15E21212CF2007DF7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF4FB15F21212CF2007DF7AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF4FB18821215601007DF7AC /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		BF4FB18921215601007DF7AC /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		BF4FB18B2121592C007DF7AC /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		BF4FB18C2121592C007DF7AC /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				BF4FB15B21212CF2007DF7AC /* LaunchScreen.storyboard */,
 				BF4FB15E21212CF2007DF7AC /* Info.plist */,
 				BF4FB15F21212CF2007DF7AC /* main.m */,
+				BF4FB18821215601007DF7AC /* AViewController.h */,
+				BF4FB18921215601007DF7AC /* AViewController.m */,
+				BF4FB18B2121592C007DF7AC /* BViewController.h */,
+				BF4FB18C2121592C007DF7AC /* BViewController.m */,
 			);
 			path = MainProject;
 			sourceTree = "<group>";
@@ -142,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4FB18A21215601007DF7AC /* AViewController.m in Sources */,
 				BF4FB15521212CF2007DF7AC /* ViewController.m in Sources */,
 				BF4FB16021212CF2007DF7AC /* main.m in Sources */,
+				BF4FB18D2121592C007DF7AC /* BViewController.m in Sources */,
 				BF4FB15221212CF2007DF7AC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

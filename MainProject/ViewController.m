@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "AViewController.h"
 @interface ViewController ()
 
 @end
@@ -16,9 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
 }
 
+- (IBAction)clickAction:(UIButton *)sender {
+    AViewController *vc = [[AViewController alloc] init];
+    [self showViewController:vc sender:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
